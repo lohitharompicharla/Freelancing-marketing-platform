@@ -46,38 +46,6 @@ FreelanceFlow/
 ├── controllers/     # Business Logic
 ├── middleware/      # Authentication Middleware
 └── README.md
-```
-
----
-
-## ⚙️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/FreelanceFlow.git
-```
-
-Go to the project folder
-
-```bash
-cd FreelanceFlow
-```
-
-Install dependencies
-
-```bash
-npm install
-npm run install:all
-```
-
-Start the development server
-
-```bash
-npm run dev
-```
-
----
 
 ## 🔑 Environment Variables
 
