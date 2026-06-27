@@ -1,32 +1,142 @@
 # FreelanceFlow
 
-A full-stack freelancer marketplace demo with smart projects, skill matching, reviews, internships, and beginner learning paths.
+FreelanceFlow is a full-stack Freelancer Marketplace web application that connects clients with freelancers. Clients can post projects, freelancers can browse and apply for jobs, and users can manage their profiles through a modern and responsive interface.
 
-## Stack
+---
 
-- Frontend: React + Vite + Tailwind CSS
-- Backend: Node.js + Express
-- Database layer: Mongo-ready models with a demo JSON store for local runs
+## 🚀 Features
 
-## Demo Credentials
+- User Authentication (Client & Freelancer)
+- Post and Manage Projects
+- Browse Available Projects
+- Apply for Freelance Jobs
+- Freelancer Profile Management
+- Responsive UI Design
+- RESTful API Integration
+- MongoDB Database Integration
 
-- Client: `client@example.com` / `password123`
-- Freelancer: `riya@example.com` / `password123`
+---
 
-## Run Locally
+## 🛠️ Tech Stack
 
-1. Install Node.js 18+ and npm.
-2. From the project root run:
-   - `npm install`
-   - `npm run install:all`
-   - `npm run seed`
-   - `npm run dev`
-3. Open `http://localhost:5173`
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
 
-## Notes
+### Backend
+- Node.js
+- Express.js
 
-- Main app URL: `http://localhost:5173`
-- API URL: `http://localhost:5000/api`
-- Frontend API calls can use `/api` through the Vite proxy while running locally.
-- The frontend falls back to built-in demo data if the backend is unavailable.
-- MongoDB can be enabled later by wiring the controllers to Mongoose queries and setting `MONGO_URI`.
+### Database
+- MongoDB
+- Mongoose
+
+---
+
+## 📂 Project Structure
+
+```
+FreelanceFlow/
+│
+├── client/          # React Frontend
+├── server/          # Express Backend
+├── models/          # Database Models
+├── routes/          # API Routes
+├── controllers/     # Business Logic
+├── middleware/      # Authentication Middleware
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/FreelanceFlow.git
+```
+
+Go to the project folder
+
+```bash
+cd FreelanceFlow
+```
+
+Install dependencies
+
+```bash
+npm install
+npm run install:all
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the server folder.
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+## 🌐 Local URLs
+
+Frontend
+
+```
+http://localhost:5173
+```
+
+Backend API
+
+```
+http://localhost:5000/api
+```
+
+---
+
+## 📌 API Features
+
+- User Registration
+- User Login
+- Project Management
+- Job Applications
+- Freelancer Profiles
+- Protected Routes using JWT
+
+---
+
+## 📱 Future Enhancements
+
+- Real-Time Chat
+- Payment Gateway Integration
+- Project Recommendations
+- Email Notifications
+- Admin Dashboard
+- Advanced Search & Filters
+
+---
+
+## 👩‍💻 Author
+
+**R. Lohitha**
+
+GitHub: https://github.com/lohitharompicherla
+
+---
+
+## 📄 License
+
+This project is developed for learning and portfolio purposes.
