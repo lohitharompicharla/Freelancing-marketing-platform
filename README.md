@@ -46,6 +46,8 @@ FreelanceFlow/
 ├── controllers/     # Business Logic
 ├── middleware/      # Authentication Middleware
 └── README.md
+```
+---
 
 ## 🔑 Environment Variables
 
