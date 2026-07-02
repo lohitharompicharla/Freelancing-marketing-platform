@@ -92,7 +92,7 @@ http://localhost:5000/api
 
 **R. Lohitha**
 
-GitHub: https://github.com/lohitharompicherla
+GitHub: https://github.com/lohitharompicharla
 
 ---
 
